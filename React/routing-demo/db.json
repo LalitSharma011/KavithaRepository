@@ -1,0 +1,21 @@
+{
+  "contacts": [
+    {
+      "firstname": "Mohan",
+      "lastname": "Kumar",
+      "email": "m@gmail.com",
+      "city": "Mumbai",
+      "phone": 13213231454,
+      "id": 1
+    },
+    {
+      "firstname": "Radha",
+      "lastname": "Kumari",
+      "email": "r@gmail.com",
+      "city": "Mangalore",
+      "phone": 13213456456,
+      "id": 2
+    }
+  ]
+  
+}

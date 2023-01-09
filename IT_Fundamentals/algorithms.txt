@@ -1,0 +1,173 @@
+Problem solving tools and techniques
+------------------------------------ 
+- Algorithm
+- Flowchart
+
+Advantages
+------------
+  neutral solution
+- provide a generic solution for the problems
+- these generic solutions can be implemented with different technology
+
+Algorithm
+---------- 
+- Basic english text representation of solution
+- step by step process to find a final solution
+- english description of a solution
+- The algorithm written by one person may differ from other person
+
+
+Algorithm to withdraw money from ATM machine
+
+Step 0:start
+step 1:insert the debit card into ATM machine
+step 2:Read the instructions
+step 3: enter the ammount to be withdrawn
+step 4: enter PIN 
+step 5: collect the cash
+step 6: collect the card
+step 7: collect the receipt
+step 8: stop /end
+
+
+adding -ve scenarios
+
+Step 0:start
+step 1:insert the debit card into ATM machine
+        step 1.1:if the card is detected goto step 2
+        step 1.2:(card is not detecting)else goto step1
+step 2: Read the instructions
+step 3: enter the amount to be withdrawn
+        step 3.1: if the amount to correct(proper amount in whole no)
+        step 3.2: else goto step3 
+step 4: enter PIN 
+         step 4.1: if the PIN entered is wrong , display "incorrect PIN" and goto step 4
+         step 4.2: if customer have insufficient balance/limit exceeds/machine doesnot have sufficient cash , display "enter correct amount"
+         step 4.3: else goto step5
+step 5: collect the cash
+step 6: collect the card
+step 7: collect the receipt
+step 8: stop /end
+
+
+
+Task:
+1.Write the complete algorithm to deposit money into the cash deposit machine
+2.wite the complete algorithm to apply for Housing loan in your bank
+3.wite the complete algorithm to open a bank account (savings)
+4.wite the complete algorithm to apply PASSPORT
+5.wite the complete algorithm to display total loan amount, by inputing the tenure and rate of interest
+
+
+
+Alogorithm to add 2 numbers
+step 0: start
+step 1:input 2 numbers
+step 2: calculate the sum of 2 numbers
+step 3: Display the sum
+step 4: stop
+
+
+Algorithm to check the eligibility to open the savings account for Indian 
+step 0:start
+step 1:input the age
+step 2: store age "customer_age" 
+step 3: check if "customer_age"  >=18
+       step 3.1: Then display "You are eligible to open account" and goto step 4
+       step 3.2: else("customer_age"  <=18) display "You are eligible to open account" and goto step 4
+step 4: end/stop
+
+
+Data structure:
+
+memory structure allocated in the system.
+
+Array:
+- can store homogenous(same) data 
+- index start with 0 
+- last index  = n-1  : n-->total length of the arrary
+- 
+
+Linear searching
+- very inefficient way of finding an element from a data structure which is already sorted.
+- very useful when finding the element from a data structure which is not sorted.
+- the best case scenario : finding the element of array in first index
+- the worst case scenario :finding the element of array in last index
+
+
+Binary searching
+- very efficient way of finding an element from a data structure which is already sorted.
+- very unuseful when finding the element from a data structure which is not sorted.
+- the best case scenario : finding  the element of array in specific index 
+- the worst case scenario :depending on how deeper we are going inside the tree
+
+
+1 single page from a book of 2000 pages
+
+1st time ---> 1/2000
+2nd time ---->1/1000
+3rd time---> 1/500
+4th time ---> 1/250
+5th time ---> 1/125
+6th time ---> 1/62
+7th time ---> 1/31
+8th time ----> 1/15
+9th time ----> 1/7
+10th time ---> 1/3
+11th time ---> 1/1
+
+
+Algorithm for linear searching to find the account number of customer
+
+step 0: start
+step 1: get the input for the account numbers of 100 customers to a  number array (accounts)
+step 2: get the input of the account number to be searched (sno)
+step 3: for i=0 upto n-1 (i<n) , i+1
+step 4 :check if sno ==accounts[i]
+step 5: if true, display "customer exists" and then goto step 7
+step 6 : else goto step 3        
+step 7: stop
+
+
+Algorithm to display the name 100 times
+
+
+step 0: start
+step 1: input the name and store into "name"
+step 2: repeat 100 times / for i=0 upto 99 , i=i+1
+step 3: Display name
+step n:stop
+
+
+Task:
+Algorithm to find the account number of customer using Binary search
+step 0: start
+step 1: get the input for the account numbers of 100 customers to a  number array (accounts)
+step 2: get the input of the account number to be searched (sno)
+step 3: create start =0 , end = n-1 , mid= (start+end)/2
+step 4:for i=0 upto n-1 (i<n) , i+1 
+        step 4.1: if sno ==accounts[mid],true then
+                step 4.1.1:Display "Customer found" ,end the program
+        step 4.2: else sno> accounts[mid], true then
+                step 4.2.1: start = mid+1 and goto step 4
+        step 4.3: else if sno<accounts[mid], true then
+                step 4.3.1:end=mid-1
+        step 4.4: mid = (start+end)/2
+step 5: Display "customer not found"
+step 6: stop /end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
